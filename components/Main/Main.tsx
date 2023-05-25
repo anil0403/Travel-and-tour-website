@@ -1,7 +1,6 @@
 import React from "react";
 import { AiFillFilter } from "react-icons/ai";
 import { useState } from "react";
-// import {CiLocationOn} from 'react-icons/ci'
 const Main = () => {
   const [price, setPrice] = useState(1000);
   return (
@@ -25,7 +24,7 @@ const Main = () => {
             </h1>
           </div>
 
-          <div className="w-full flex flex-col gap-4 bg-white rounded-xl p-5 md:flex-row md:gap-20 md:justify-between md:relative md:py-10">
+          <div className="w-full flex flex-col gap-4 bg-white rounded-xl p-8 md:flex-row md:gap-20 md:justify-between md:relative md:py-10">
             <div className="flex flex-col gap-2 w-full">
               <label className="font-semibold " htmlFor="destination">
                 Search your destination
