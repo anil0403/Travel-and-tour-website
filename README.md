@@ -14,7 +14,7 @@
 ### Cloning the repository
 
 ```shell
-git  https://github.com/anil0403/Travel-and-tour-website.git
+git clone  https://github.com/anil0403/Travel-and-tour-website.git
 ```
 
 ### Install packages
