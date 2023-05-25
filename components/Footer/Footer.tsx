@@ -8,7 +8,7 @@ import {IoIosArrowForward} from 'react-icons/io'
 
 const Footer = () => {
   return (
-    <div className="w-full h-[140vh] md:h-[80vh] relative lg:h-[50vh] xl:h-[40vh]">
+    <div className="w-full h-[140vh] md:h-[80vh] relative  xl:h-[70vh]">
       <div className="absolute h-full w-full bg-black/40 z-1"></div>
       <video
         className=" w-[100%] h-[100%] top-0 bottom-0 object-cover mix-blend-multiply"
@@ -20,7 +20,7 @@ const Footer = () => {
       ></video>
       <div className="w-full h-full absolute top-0 left-0 z-1">
         <div className="w-full h-full flex flex-col gap-5 justify-center items-center">
-          <div className="w-[90%] flex flex-col gap-3 md:flex-row md:justify-center ">
+          <div className="w-[90%] flex flex-col gap-5 md:flex-row md:justify-center ">
             <h1 className="text-xl text-white font-bold py-1">
               <span className="text-sm font-light block">KEEP IN TOUCH</span>
               Travel With Us
