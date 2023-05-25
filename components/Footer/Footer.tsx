@@ -34,7 +34,7 @@ const Footer = () => {
               SEND <FiSend />
             </button>
           </div>
-          <div className="w-[90%] bg-white py-5 px-4 rounded-2xl flex flex-col md:flex-row md:justify-between">
+          <div className="w-[90%] bg-white py-5 px-4 mt-5 rounded-2xl flex flex-col md:flex-row md:justify-between">
             <div className="w-[70%]">
               <div className="flex flex-row gap-2 items-center">
                 <MdTravelExplore className="text-sky-500" size={30} />
