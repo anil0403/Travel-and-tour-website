@@ -5,6 +5,7 @@ const Main = () => {
   const [price, setPrice] = useState(1000);
   return (
     <div className="w-full h-[80vh] relative ">
+      <div className="absolute h-full w-full bg-black/40 z-1"></div>
       <video
         className=" w-[100%] h-[100%] top-0 bottom-0 object-cover"
         src="/video/video.mp4"

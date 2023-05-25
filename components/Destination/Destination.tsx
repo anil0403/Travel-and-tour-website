@@ -110,13 +110,13 @@ const Destination = () => {
   ];
   return (
     <div className=" my-10 mx-10 flex flex-col justify-center items-center ">
-      <h1 className=" py-5 text-2xl font-bold text-black">
+      <h1 className=" text-center py-5 text-2xl font-bold text-black">
         Most Visited Destinations
       </h1>
       <div className=" flex flex-row flex-wrap gap-10 justify-center">
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, feees, description }) => (
-            <div key={id} className="w-64 mb-4  font-semibold text-sm  rounded-xl shadow-md shadow-slate-400 ">
+            <div key={id} className="w-64 mb-4 md:mb-2  font-semibold text-sm  rounded-xl shadow-md shadow-slate-400 ">
               <div className="w-64 h-40">
                 <img
                   className="w-full h-full object-cover cursor-pointer rounded-t-xl "
